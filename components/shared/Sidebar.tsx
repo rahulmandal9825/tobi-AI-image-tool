@@ -27,11 +27,11 @@ const Sidebar =  () => {
                                 return (
                                     <div
                                         key={link.route}
-                                        className={` flex-2  w-full py-3 p-2 rounded-lg  transition-all ease-in-out duration-400 hover:bg-orange-400 hover:text-white ${
-                                            isActive ? " bg-orange-400 text-white" : "text-black"
-                                        }`}
+                                        className={` flex-2  w-full py-3 p-2 rounded-lg   transition-all ease-in-out duration-400 hover:bg-orange-400 hover:text-white ${
+                                            isActive ? " bg-orange-400 text-white shadow-2xl scale-110" : "text-black"
+                                        }`} 
                                     >
-                                        <Link href={link.route} className="flex gap-2">
+                                        <Link href={link.route} className="flex gap-2 ">
                                             <Image
                                                 alt="logo"
                                                 src={link.icon}
@@ -53,7 +53,7 @@ const Sidebar =  () => {
                                     <div
                                         key={link.route}
                                         className={` flex-2  w-full py-3 p-2 mt-2 rounded-lg  transition-all ease-in-out duration-400 hover:bg-orange-400 hover:text-white  ${
-                                            isActive ? " bg-orange-400 text-white" : "text-black"
+                                            isActive ? " bg-orange-400 text-white  shadow-2xl scale-110" : "text-black"
                                         }`}
                                     >
                                         <Link href={link.route} className="flex gap-2">

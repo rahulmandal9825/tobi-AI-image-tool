@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+
 }
 
 @layer base {
@@ -173,11 +174,11 @@ body {
   }
 
   .dropdown-item {
-    @apply p-16-semibold text-dark-700 cursor-pointer transition-all px-4 py-3 rounded-none outline-none hover:border-none focus-visible:ring-transparent hover:text-white hover:bg-purple-gradient hover:bg-cover focus-visible:ring-offset-0 focus-visible:outline-none !important;
+    @apply p-16-semibold text-orange-800 cursor-pointer transition-all px-4 py-3 rounded-none outline-none hover:border-none focus-visible:ring-transparent hover:text-white hover:bg-purple-gradient hover:bg-cover focus-visible:ring-offset-0 focus-visible:outline-none !important;
   }
 
   .input-field {
-    @apply w-[300px] rounded-[16px] border-2 border-purple-200/20 shadow-sm shadow-purple-200/15 text-dark-600 disabled:opacity-100 p-16-semibold h-[30px] md:h-[44px] focus-visible:ring-offset-0 px-4 py-3 focus-visible:ring-transparent !important;
+    @apply w-[300px] rounded-[16px] border-2 border-purple-200/20 shadow-sm shadow-orange-200/15 text-gray-600  disabled:opacity-100 p-16-semibold h-[30px] md:h-[44px] focus-visible:ring-offset-0 px-4 py-3 focus-visible:ring-transparent !important;
   }
 
   .search-field {
@@ -189,7 +190,7 @@ body {
   }
 
   .select-field {
-    @apply w-[300px] border-2 border-purple-200/20 shadow-sm shadow-purple-200/15 rounded-[16px] h-[50px] md:h-[54px] text-dark-600 p-16-semibold disabled:opacity-100 placeholder:text-dark-400/50 px-4 py-3 focus:ring-offset-0 focus-visible:ring-transparent focus:ring-transparent focus-visible:ring-0 focus-visible:outline-none !important;
+    @apply w-[300px] border-2 border-purple-200/20 shadow-sm shadow-purple-200/15 rounded-[16px] h-[50px] md:h-[54px] text-orange-800 p-16-semibold disabled:opacity-100 placeholder:text-dark-400/50 px-4 py-3 focus:ring-offset-0 focus-visible:ring-transparent focus:ring-transparent focus-visible:ring-0 focus-visible:outline-none !important;
   }
 
   .select-trigger {
@@ -218,7 +219,7 @@ body {
 
   /* Home Page */
   .home {
-    @apply sm:flex-center hidden flex-col gap-4 rounded-[20px] border  bg-cover bg-no-repeat  shadow-inner;
+    @apply sm:flex-center hidden flex-col gap-4 rounded-[20px] border  bg-cover bg-no-repeat  ;
   }
 
   .home-heading {

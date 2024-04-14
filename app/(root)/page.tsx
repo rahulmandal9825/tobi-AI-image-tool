@@ -8,7 +8,7 @@ const Home =  () => {
 
   return (
     <>
-      <section className="home bg-orange-400 h-[45vh] ">
+      <section className="home bg-orange-400 h-[45vh] shadow-2xl ">
         <h1 className="home-heading">
           Unleash Your Creative Vision with Tobi
         </h1>

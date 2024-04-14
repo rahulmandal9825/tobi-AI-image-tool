@@ -50,7 +50,7 @@ const MobileNav = () => {
                                     <div
                                         key={link.route}
                                         className={`my-3 flex whitespace-nowrap  w-full py-3 p-2  rounded-lg ${
-                                            isActive ? " bg-orange-400 text-white" : "text-dark-700"
+                                            isActive ? " bg-orange-400 text-white shadow-2xl scale-110" : "text-dark-700"
                                         }`}
                                     >
                                         <Link href={link.route} className=" cursor-pointer flex gap-2">
