@@ -27,7 +27,10 @@ const MobileNav = () => {
       </Link>
       <nav className='flex gap-2 '>
         <SignedIn>
-        <UserButton afterSignOutUrl="/" />
+        <div className=' self-center'>
+             <UserButton afterSignOutUrl="/" />
+        </div>
+     
         <Sheet>
   <SheetTrigger>
     <Image src="/assets/icons/menu.svg" alt='menu' width={50} height={50} className=' cursor-pointer'/>
@@ -76,7 +79,7 @@ const MobileNav = () => {
         </SignedIn>
         <SignedOut>
                         <Button asChild>
-                            <Link href="/login">Login</Link>
+                            <Link href="/sign-in">Login</Link>
                         </Button>
                     </SignedOut>
       </nav>

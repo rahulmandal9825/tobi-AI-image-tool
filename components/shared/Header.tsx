@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = ({title, subtitle }: {title:string, subtitle?: string}) => {
   return (
-    <div className='flex flex-col gap-4  text-black my-6'>
+    <div className='flex flex-col gap-4  text-black mt-6'>
         <h2 className='text-3xl font-bold'>
             {title}
         </h2>
