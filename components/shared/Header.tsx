@@ -7,7 +7,7 @@ const Header = ({title, subtitle }: {title:string, subtitle?: string}) => {
             {title}
         </h2>
             <h1 className='text-xl text-gray-500 '>
-              {subtitle}.
+              {subtitle}
               </h1>
        
     </div>
